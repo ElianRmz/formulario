@@ -1,10 +1,13 @@
 .Form{
     display: flex;
+    background-color: rgb(255, 255, 251);
     flex-direction: column;
     border: 2px solid rgb(67, 67, 129);
     margin-left: 35%;
     margin-right: 35%;
     border-radius: 3%;
+    font-family: 'Roboto', sans-serif;
+
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5), 0 0 20px rgba(0, 0, 0, 0.3);
 }
 
@@ -22,9 +25,10 @@
 #detalle{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5), 0 0 20px rgba(0, 0, 0, 0.3);
     border: 2px solid rgb(67, 67, 129);
-    width: 290px;
-    height: 200px;
+    width: 75%;
+    height: 250px;
     margin-bottom: 3%;
+    resize: none;
 }
 .seleccion{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5), 0 0 20px rgba(0, 0, 0, 0.3);
@@ -85,4 +89,15 @@ button {
   
   button:active {
     transform: scale(0.97);
+  }
+  body {
+    background: rgb(112, 132, 219);
+    background: linear-gradient(
+      90deg,
+      rgba(112, 132, 219, 1) 0%,
+      rgba(112, 200, 219, 1) 50%,
+      rgb(83, 62, 147) 100%
+      
+    );
+    
   }
